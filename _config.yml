@@ -120,6 +120,8 @@ feed:
   autodiscovery: true
   template:
 
+sitemap:
+  path: sitemap.xml
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
