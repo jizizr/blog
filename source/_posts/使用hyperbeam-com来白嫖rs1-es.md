@@ -10,6 +10,8 @@ tags:
 - 搭建
 ---
 
+#  目前rs1.es已跑路！！！！！
+
 由于我之前在[hostloc](https://hostloc.com/thread-876810-1-1.html)对[rs1.es](https://rs1.es)的传播，导致rs1.es的免费资源分配太过于紧张。于是开始了一波ban ip的行动。今天我来教大家如何使用[hyperbeam.com](https://hyperbeam.com/)来带大家继续白嫖rs1.es的免费vps
 
 1. 打开他们的tg bot [@rs1_fwt_bot](https://t.me/rs1_fwt_bot)，查询vps分配占用情况
