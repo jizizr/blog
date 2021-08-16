@@ -25,7 +25,7 @@ tags:
 ### 节点站
 
 1. 打开[节点站](https://misakanode.cf)
-2. 点击`clash for windows x64`或`clash for windows x86`进行下载
+2. 点击`Clash.NET x64`或`Clash.NET x86`进行下载
 
 ![](https://cdn.jsdelivr.net/gh/zzysite/imgs@main/20210816115115.png)
 
@@ -48,13 +48,13 @@ tags:
 
 ![](https://cdn.jsdelivr.net/gh/zzysite/imgs@main/20210816115317.png)
 
-7. 记得科学上网完后，退出clash for windows
+7. 记得科学上网完后，退出Clash.NET
 
 ---
 
 ### 使用订阅获取节点
 
-1. 打开 clash for windows
+1. 打开 Clash.NET
 2. 转到 Profiles
 3. 点击`+`图标
 4. 粘贴订阅链接，点击`Subscribe（订阅）`
