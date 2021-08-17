@@ -6,7 +6,7 @@
   <link href="https://www.misakano.eu.org/atom.xml" rel="self"/>
   
   <link href="https://www.misakano.eu.org/"/>
-  <updated>2021-08-17T12:15:35.064Z</updated>
+  <updated>2021-08-17T12:17:01.195Z</updated>
   <id>https://www.misakano.eu.org/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="https://www.misakano.eu.org/2021/08/17/Ubuntu%E5%AE%89%E8%A3%85%E6%9C%80%E6%96%B0%E7%89%88node-js/"/>
     <id>https://www.misakano.eu.org/2021/08/17/Ubuntu%E5%AE%89%E8%A3%85%E6%9C%80%E6%96%B0%E7%89%88node-js/</id>
     <published>2021-08-17T12:13:07.000Z</published>
-    <updated>2021-08-17T12:15:35.064Z</updated>
+    <updated>2021-08-17T12:17:01.195Z</updated>
     
     
       
@@ -40,6 +40,8 @@
     <category term="编程" scheme="https://www.misakano.eu.org/tags/%E7%BC%96%E7%A8%8B/"/>
     
     <category term="nodejs" scheme="https://www.misakano.eu.org/tags/nodejs/"/>
+    
+    <category term="npm" scheme="https://www.misakano.eu.org/tags/npm/"/>
     
     <category term="ubuntu" scheme="https://www.misakano.eu.org/tags/ubuntu/"/>
     
