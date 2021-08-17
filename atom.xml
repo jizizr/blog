@@ -1,0 +1,330 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>小御坂的破站</title>
+  <icon>https://www.misakano.eu.org/icon.png</icon>
+  <subtitle>这只是个小破站而已了！</subtitle>
+  <link href="https://www.misakano.eu.org/atom.xml" rel="self"/>
+  
+  <link href="https://www.misakano.eu.org/"/>
+  <updated>2021-08-17T11:23:16.477Z</updated>
+  <id>https://www.misakano.eu.org/</id>
+  
+  <author>
+    <name>MisakaNo</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>在cloudstudio.net写博客是什么样的体验</title>
+    <link href="https://www.misakano.eu.org/2021/08/16/%E5%9C%A8cloudstudio-net%E5%86%99%E5%8D%9A%E5%AE%A2%E6%98%AF%E4%BB%80%E4%B9%88%E6%A0%B7%E7%9A%84%E4%BD%93%E9%AA%8C/"/>
+    <id>https://www.misakano.eu.org/2021/08/16/%E5%9C%A8cloudstudio-net%E5%86%99%E5%8D%9A%E5%AE%A2%E6%98%AF%E4%BB%80%E4%B9%88%E6%A0%B7%E7%9A%84%E4%BD%93%E9%AA%8C/</id>
+    <published>2021-08-16T11:12:03.000Z</published>
+    <updated>2021-08-17T11:23:16.477Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;&lt;img</summary>
+        
+      
+    
+    
+    
+    
+    <category term="cloudstudio" scheme="https://www.misakano.eu.org/tags/cloudstudio/"/>
+    
+    <category term="博客" scheme="https://www.misakano.eu.org/tags/%E5%8D%9A%E5%AE%A2/"/>
+    
+    <category term="webide" scheme="https://www.misakano.eu.org/tags/webide/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Clash.NET 食用教程</title>
+    <link href="https://www.misakano.eu.org/2021/08/16/clash-net%E9%A3%9F%E7%94%A8%E6%95%99%E7%A8%8B/"/>
+    <id>https://www.misakano.eu.org/2021/08/16/clash-net%E9%A3%9F%E7%94%A8%E6%95%99%E7%A8%8B/</id>
+    <published>2021-08-16T03:46:43.000Z</published>
+    <updated>2021-08-17T11:23:16.477Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;这篇文章我会从下载、安装、添加订阅和导入的方式来详细讲述如何使用Clash.NET&lt;/p&gt;
+&lt;h2 id=&quot;下载&quot;&gt;&lt;a href=&quot;#下载&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    
+    <category term="clash" scheme="https://www.misakano.eu.org/tags/clash/"/>
+    
+    <category term="科学上网" scheme="https://www.misakano.eu.org/tags/%E7%A7%91%E5%AD%A6%E4%B8%8A%E7%BD%91/"/>
+    
+    <category term="教程" scheme="https://www.misakano.eu.org/tags/%E6%95%99%E7%A8%8B/"/>
+    
+    <category term="cdn" scheme="https://www.misakano.eu.org/tags/cdn/"/>
+    
+    <category term="Clash.NET" scheme="https://www.misakano.eu.org/tags/Clash-NET/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>部分机场无法订阅问题及解决方案</title>
+    <link href="https://www.misakano.eu.org/2021/08/16/%E9%83%A8%E5%88%86%E6%9C%BA%E5%9C%BA%E6%97%A0%E6%B3%95%E8%AE%A2%E9%98%85%E9%97%AE%E9%A2%98%E5%8F%8A%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88/"/>
+    <id>https://www.misakano.eu.org/2021/08/16/%E9%83%A8%E5%88%86%E6%9C%BA%E5%9C%BA%E6%97%A0%E6%B3%95%E8%AE%A2%E9%98%85%E9%97%AE%E9%A2%98%E5%8F%8A%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88/</id>
+    <published>2021-08-16T03:11:44.000Z</published>
+    <updated>2021-08-17T11:23:16.477Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;ol&gt;
+&lt;li&gt;策略问题，对国内实行ban ip策略&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;解决办法： 打开全局连上节点，再进行订阅&lt;/p&gt;
+&lt;ol start=&quot;2&quot;&gt;
+&lt;li&gt;订阅客户端适配问题&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;解决办法： 订阅转换 &lt;a</summary>
+        
+      
+    
+    
+    
+    
+    <category term="clash" scheme="https://www.misakano.eu.org/tags/clash/"/>
+    
+    <category term="cfw" scheme="https://www.misakano.eu.org/tags/cfw/"/>
+    
+    <category term="clash for windows" scheme="https://www.misakano.eu.org/tags/clash-for-windows/"/>
+    
+    <category term="科学上网" scheme="https://www.misakano.eu.org/tags/%E7%A7%91%E5%AD%A6%E4%B8%8A%E7%BD%91/"/>
+    
+    <category term="v2ray" scheme="https://www.misakano.eu.org/tags/v2ray/"/>
+    
+    <category term="v2" scheme="https://www.misakano.eu.org/tags/v2/"/>
+    
+    <category term="机场" scheme="https://www.misakano.eu.org/tags/%E6%9C%BA%E5%9C%BA/"/>
+    
+    <category term="订阅" scheme="https://www.misakano.eu.org/tags/%E8%AE%A2%E9%98%85/"/>
+    
+    <category term="问题" scheme="https://www.misakano.eu.org/tags/%E9%97%AE%E9%A2%98/"/>
+    
+    <category term="解决方案" scheme="https://www.misakano.eu.org/tags/%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>clash for windows食用教程</title>
+    <link href="https://www.misakano.eu.org/2021/08/15/clash%20for%20windows%E9%A3%9F%E7%94%A8%E6%95%99%E7%A8%8B/"/>
+    <id>https://www.misakano.eu.org/2021/08/15/clash%20for%20windows%E9%A3%9F%E7%94%A8%E6%95%99%E7%A8%8B/</id>
+    <published>2021-08-15T07:52:20.000Z</published>
+    <updated>2021-08-17T11:23:16.477Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;这篇文章我会从下载、安装、添加订阅和导入的方式来详细讲述如何使用clash for windows&lt;/p&gt;
+&lt;h2 id=&quot;下载&quot;&gt;&lt;a href=&quot;#下载&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    
+    <category term="clash" scheme="https://www.misakano.eu.org/tags/clash/"/>
+    
+    <category term="cfw" scheme="https://www.misakano.eu.org/tags/cfw/"/>
+    
+    <category term="clash for windows" scheme="https://www.misakano.eu.org/tags/clash-for-windows/"/>
+    
+    <category term="科学上网" scheme="https://www.misakano.eu.org/tags/%E7%A7%91%E5%AD%A6%E4%B8%8A%E7%BD%91/"/>
+    
+    <category term="教程" scheme="https://www.misakano.eu.org/tags/%E6%95%99%E7%A8%8B/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>v2rayN食用教程</title>
+    <link href="https://www.misakano.eu.org/2021/08/15/v2rayN%E9%A3%9F%E7%94%A8%E6%95%99%E7%A8%8B/"/>
+    <id>https://www.misakano.eu.org/2021/08/15/v2rayN%E9%A3%9F%E7%94%A8%E6%95%99%E7%A8%8B/</id>
+    <published>2021-08-15T07:52:20.000Z</published>
+    <updated>2021-08-17T11:35:04.123Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;这篇文章我会从下载、安装、添加订阅和导入的方式来详细讲述如何使用v2rayN&lt;/p&gt;
+&lt;h2 id=&quot;下载&quot;&gt;&lt;a href=&quot;#下载&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    
+    <category term="科学上网" scheme="https://www.misakano.eu.org/tags/%E7%A7%91%E5%AD%A6%E4%B8%8A%E7%BD%91/"/>
+    
+    <category term="教程" scheme="https://www.misakano.eu.org/tags/%E6%95%99%E7%A8%8B/"/>
+    
+    <category term="v2ray" scheme="https://www.misakano.eu.org/tags/v2ray/"/>
+    
+    <category term="v2" scheme="https://www.misakano.eu.org/tags/v2/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>网站镜像域名</title>
+    <link href="https://www.misakano.eu.org/2021/08/15/%E7%BD%91%E7%AB%99%E9%95%9C%E5%83%8F%E5%9F%9F%E5%90%8D/"/>
+    <id>https://www.misakano.eu.org/2021/08/15/%E7%BD%91%E7%AB%99%E9%95%9C%E5%83%8F%E5%9F%9F%E5%90%8D/</id>
+    <published>2021-08-15T06:42:50.000Z</published>
+    <updated>2021-08-17T11:23:16.477Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;主域名： &lt;a href=&quot;https://www.misakano.eu.org/&quot;&gt;https://www.misakano.eu.org/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;镜像域名：&lt;/p&gt;
+&lt;p&gt;&lt;a</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>使用hyperbeam.com来白嫖rs1.es</title>
+    <link href="https://www.misakano.eu.org/2021/08/15/%E4%BD%BF%E7%94%A8hyperbeam-com%E6%9D%A5%E7%99%BD%E5%AB%96rs1-es/"/>
+    <id>https://www.misakano.eu.org/2021/08/15/%E4%BD%BF%E7%94%A8hyperbeam-com%E6%9D%A5%E7%99%BD%E5%AB%96rs1-es/</id>
+    <published>2021-08-15T06:00:10.000Z</published>
+    <updated>2021-08-17T11:23:16.477Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;目前rs1-es已跑路！！！！！&quot;&gt;&lt;a href=&quot;#目前rs1-es已跑路！！！！！&quot; class=&quot;headerlink&quot; title=&quot;目前rs1.es已跑路！！！！！&quot;&gt;&lt;/a&gt;目前rs1.es已跑路！！！！！&lt;/h1&gt;&lt;p&gt;由于我之前在&lt;a</summary>
+        
+      
+    
+    
+    
+    
+    <category term="v2ray" scheme="https://www.misakano.eu.org/tags/v2ray/"/>
+    
+    <category term="rs1.es" scheme="https://www.misakano.eu.org/tags/rs1-es/"/>
+    
+    <category term="hyperbeams" scheme="https://www.misakano.eu.org/tags/hyperbeams/"/>
+    
+    <category term="vps" scheme="https://www.misakano.eu.org/tags/vps/"/>
+    
+    <category term="节点" scheme="https://www.misakano.eu.org/tags/%E8%8A%82%E7%82%B9/"/>
+    
+    <category term="搭建" scheme="https://www.misakano.eu.org/tags/%E6%90%AD%E5%BB%BA/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>解除Telegram对+86大陆手机号绑定账户的私聊限制的办法</title>
+    <link href="https://www.misakano.eu.org/2021/08/15/%E8%A7%A3%E9%99%A4Telegram%E5%AF%B9-86%E5%A4%A7%E9%99%86%E6%89%8B%E6%9C%BA%E5%8F%B7%E7%BB%91%E5%AE%9A%E8%B4%A6%E6%88%B7%E7%9A%84%E7%A7%81%E8%81%8A%E9%99%90%E5%88%B6%E7%9A%84%E5%8A%9E%E6%B3%95/"/>
+    <id>https://www.misakano.eu.org/2021/08/15/%E8%A7%A3%E9%99%A4Telegram%E5%AF%B9-86%E5%A4%A7%E9%99%86%E6%89%8B%E6%9C%BA%E5%8F%B7%E7%BB%91%E5%AE%9A%E8%B4%A6%E6%88%B7%E7%9A%84%E7%A7%81%E8%81%8A%E9%99%90%E5%88%B6%E7%9A%84%E5%8A%9E%E6%B3%95/</id>
+    <published>2021-08-15T03:26:08.000Z</published>
+    <updated>2021-08-17T11:23:16.477Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;ol&gt;
+&lt;li&gt;向官方 @SpamBot 发送消息申请(跟着提示操作就行)&lt;/li&gt;
+&lt;li&gt;前两步操作是点击下方选项, 不是输入内容,</summary>
+        
+      
+    
+    
+    
+    
+    <category term="Telegram" scheme="https://www.misakano.eu.org/tags/Telegram/"/>
+    
+    <category term="电报" scheme="https://www.misakano.eu.org/tags/%E7%94%B5%E6%8A%A5/"/>
+    
+    <category term="86" scheme="https://www.misakano.eu.org/tags/86/"/>
+    
+    <category term="私信" scheme="https://www.misakano.eu.org/tags/%E7%A7%81%E4%BF%A1/"/>
+    
+    <category term="手机号" scheme="https://www.misakano.eu.org/tags/%E6%89%8B%E6%9C%BA%E5%8F%B7/"/>
+    
+    <category term="私聊" scheme="https://www.misakano.eu.org/tags/%E7%A7%81%E8%81%8A/"/>
+    
+    <category term="PM" scheme="https://www.misakano.eu.org/tags/PM/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>我在Windows 11 22000.132遇到的bug</title>
+    <link href="https://www.misakano.eu.org/2021/08/15/%E6%88%91%E5%9C%A8Windows-11-22000-132%E9%81%87%E5%88%B0%E7%9A%84bug/"/>
+    <id>https://www.misakano.eu.org/2021/08/15/%E6%88%91%E5%9C%A8Windows-11-22000-132%E9%81%87%E5%88%B0%E7%9A%84bug/</id>
+    <published>2021-08-15T02:57:07.000Z</published>
+    <updated>2021-08-17T11:23:16.477Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;本人电脑配置：&lt;/p&gt;
+&lt;p&gt;&lt;img</summary>
+        
+      
+    
+    
+    
+    
+    <category term="Windows 11" scheme="https://www.misakano.eu.org/tags/Windows-11/"/>
+    
+    <category term="22000.132" scheme="https://www.misakano.eu.org/tags/22000-132/"/>
+    
+    <category term="bug" scheme="https://www.misakano.eu.org/tags/bug/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>感觉备份了Hexo在仓库里面有些烦</title>
+    <link href="https://www.misakano.eu.org/2021/08/15/%E6%84%9F%E8%A7%89%E5%A4%87%E4%BB%BD%E4%BA%86Hexo%E5%9C%A8%E4%BB%93%E5%BA%93%E9%87%8C%E9%9D%A2%E6%9C%89%E4%BA%9B%E7%83%A6/"/>
+    <id>https://www.misakano.eu.org/2021/08/15/%E6%84%9F%E8%A7%89%E5%A4%87%E4%BB%BD%E4%BA%86Hexo%E5%9C%A8%E4%BB%93%E5%BA%93%E9%87%8C%E9%9D%A2%E6%9C%89%E4%BA%9B%E7%83%A6/</id>
+    <published>2021-08-15T02:28:11.000Z</published>
+    <updated>2021-08-17T11:23:16.477Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;&lt;img</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
+  
+</feed>
