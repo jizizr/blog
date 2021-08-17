@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://www.misakano.eu.org/2021/08/17/Azure-F4S-%E5%85%AC%E7%9B%8A%E4%B8%AD%E8%BD%AC-from-%E5%B2%9B%E4%B8%BB/</loc>
+    
+    <lastmod>2021-08-17</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://www.misakano.eu.org/2021/08/17/cloudstudio%E4%BD%93%E9%AA%8C%E6%8A%A5%E5%91%8A/</loc>
     
     <lastmod>2021-08-17</lastmod>
@@ -102,6 +109,69 @@
 
   
   <url>
+    <loc>https://www.misakano.eu.org/tags/%E4%B8%AD%E8%BD%AC/</loc>
+    <lastmod>2021-08-17</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.misakano.eu.org/tags/v2ray/</loc>
+    <lastmod>2021-08-17</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.misakano.eu.org/tags/clash/</loc>
+    <lastmod>2021-08-17</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.misakano.eu.org/tags/cdn/</loc>
+    <lastmod>2021-08-17</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.misakano.eu.org/tags/cfw/</loc>
+    <lastmod>2021-08-17</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.misakano.eu.org/tags/Clash-NET/</loc>
+    <lastmod>2021-08-17</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.misakano.eu.org/tags/clash-for-windows/</loc>
+    <lastmod>2021-08-17</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.misakano.eu.org/tags/%E7%BF%BB%E5%A2%99/</loc>
+    <lastmod>2021-08-17</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.misakano.eu.org/tags/%E7%A7%91%E5%AD%A6%E4%B8%8A%E7%BD%91/</loc>
+    <lastmod>2021-08-17</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://www.misakano.eu.org/tags/%E7%BC%96%E7%A8%8B/</loc>
     <lastmod>2021-08-17</lastmod>
     <changefreq>daily</changefreq>
@@ -158,49 +228,7 @@
   </url>
   
   <url>
-    <loc>https://www.misakano.eu.org/tags/clash/</loc>
-    <lastmod>2021-08-17</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.misakano.eu.org/tags/cfw/</loc>
-    <lastmod>2021-08-17</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.misakano.eu.org/tags/clash-for-windows/</loc>
-    <lastmod>2021-08-17</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.misakano.eu.org/tags/%E7%A7%91%E5%AD%A6%E4%B8%8A%E7%BD%91/</loc>
-    <lastmod>2021-08-17</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://www.misakano.eu.org/tags/%E6%95%99%E7%A8%8B/</loc>
-    <lastmod>2021-08-17</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.misakano.eu.org/tags/cdn/</loc>
-    <lastmod>2021-08-17</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.misakano.eu.org/tags/Clash-NET/</loc>
     <lastmod>2021-08-17</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -236,13 +264,6 @@
   
   <url>
     <loc>https://www.misakano.eu.org/tags/%E8%85%BE%E8%AE%AF%E4%BA%91/</loc>
-    <lastmod>2021-08-17</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.misakano.eu.org/tags/v2ray/</loc>
     <lastmod>2021-08-17</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>

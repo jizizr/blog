@@ -1,6 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>Azure F4S 公益中转 from 岛主</title>
+    <url>/2021/08/17/Azure-F4S-%E5%85%AC%E7%9B%8A%E4%B8%AD%E8%BD%AC-from-%E5%B2%9B%E4%B8%BB/</url>
+    <content><![CDATA[<p>面板地址：<a href="https://panel-transit-azure-f4s-hk.speedtestcustom.tk/">https://panel-transit-azure-f4s-hk.speedtestcustom.tk/</a></p>
+<p>测试效果 （用的是Heroku欧洲）</p>
+<p><img src="https://cdn.jsdelivr.net/gh/zzysite/imgs@main/20210817215820.png"></p>
+]]></content>
+      <tags>
+        <tag>中转</tag>
+        <tag>v2ray</tag>
+        <tag>clash</tag>
+        <tag>cdn</tag>
+        <tag>cfw</tag>
+        <tag>Clash.NET</tag>
+        <tag>clash for windows</tag>
+        <tag>翻墙</tag>
+        <tag>科学上网</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Ubuntu安装最新版node.js</title>
     <url>/2021/08/17/Ubuntu%E5%AE%89%E8%A3%85%E6%9C%80%E6%96%B0%E7%89%88node-js/</url>
     <content><![CDATA[<p>这篇文章教大家在Ubuntu下安装nodejs最新版本</p>
@@ -149,10 +168,10 @@
 ]]></content>
       <tags>
         <tag>clash</tag>
-        <tag>科学上网</tag>
-        <tag>教程</tag>
         <tag>cdn</tag>
         <tag>Clash.NET</tag>
+        <tag>科学上网</tag>
+        <tag>教程</tag>
       </tags>
   </entry>
   <entry>
@@ -235,9 +254,9 @@
 <hr>
 ]]></content>
       <tags>
+        <tag>v2ray</tag>
         <tag>科学上网</tag>
         <tag>教程</tag>
-        <tag>v2ray</tag>
         <tag>v2</tag>
       </tags>
   </entry>
@@ -280,8 +299,8 @@
 </ol>
 ]]></content>
       <tags>
-        <tag>vps</tag>
         <tag>v2ray</tag>
+        <tag>vps</tag>
         <tag>rs1.es</tag>
         <tag>hyperbeams</tag>
         <tag>节点</tag>
@@ -376,11 +395,11 @@
 <p>解决办法： 无</p>
 ]]></content>
       <tags>
+        <tag>v2ray</tag>
         <tag>clash</tag>
         <tag>cfw</tag>
         <tag>clash for windows</tag>
         <tag>科学上网</tag>
-        <tag>v2ray</tag>
         <tag>v2</tag>
         <tag>机场</tag>
         <tag>订阅</tag>
