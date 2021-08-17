@@ -4,6 +4,7 @@ date: 2021-08-17 20:13:07
 tags:
 - 编程
 - nodejs
+- npm
 - ubuntu
 - linux
 - vps
