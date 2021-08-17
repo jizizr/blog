@@ -127,5 +127,5 @@ sitemap:
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: git
-  repo: https://github.com/zzysite/blog.git
+  repo: git@github.com:zzysite/blog.git
   branch: master
