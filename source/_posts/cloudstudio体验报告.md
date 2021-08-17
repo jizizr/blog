@@ -32,3 +32,7 @@ Cloud Studio 是基于浏览器的集成式开发环境（IDE），为开发者�
 和 vs code 差不多
 
 ![](https://cdn.jsdelivr.net/gh/zzysite/imgs@main/20210817202248.png)
+
+有使用限制，注意一下
+
+# 禁止挖矿！！！！！
