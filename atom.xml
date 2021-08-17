@@ -145,13 +145,13 @@
     
     <category term="clash" scheme="https://www.misakano.eu.org/tags/clash/"/>
     
-    <category term="cdn" scheme="https://www.misakano.eu.org/tags/cdn/"/>
-    
-    <category term="Clash.NET" scheme="https://www.misakano.eu.org/tags/Clash-NET/"/>
-    
     <category term="科学上网" scheme="https://www.misakano.eu.org/tags/%E7%A7%91%E5%AD%A6%E4%B8%8A%E7%BD%91/"/>
     
     <category term="教程" scheme="https://www.misakano.eu.org/tags/%E6%95%99%E7%A8%8B/"/>
+    
+    <category term="cdn" scheme="https://www.misakano.eu.org/tags/cdn/"/>
+    
+    <category term="Clash.NET" scheme="https://www.misakano.eu.org/tags/Clash-NET/"/>
     
   </entry>
   
@@ -183,11 +183,11 @@
     
     <category term="clash" scheme="https://www.misakano.eu.org/tags/clash/"/>
     
-    <category term="科学上网" scheme="https://www.misakano.eu.org/tags/%E7%A7%91%E5%AD%A6%E4%B8%8A%E7%BD%91/"/>
-    
     <category term="cfw" scheme="https://www.misakano.eu.org/tags/cfw/"/>
     
     <category term="clash for windows" scheme="https://www.misakano.eu.org/tags/clash-for-windows/"/>
+    
+    <category term="科学上网" scheme="https://www.misakano.eu.org/tags/%E7%A7%91%E5%AD%A6%E4%B8%8A%E7%BD%91/"/>
     
     <category term="v2ray" scheme="https://www.misakano.eu.org/tags/v2ray/"/>
     
@@ -225,13 +225,13 @@
     
     <category term="clash" scheme="https://www.misakano.eu.org/tags/clash/"/>
     
-    <category term="科学上网" scheme="https://www.misakano.eu.org/tags/%E7%A7%91%E5%AD%A6%E4%B8%8A%E7%BD%91/"/>
-    
-    <category term="教程" scheme="https://www.misakano.eu.org/tags/%E6%95%99%E7%A8%8B/"/>
-    
     <category term="cfw" scheme="https://www.misakano.eu.org/tags/cfw/"/>
     
     <category term="clash for windows" scheme="https://www.misakano.eu.org/tags/clash-for-windows/"/>
+    
+    <category term="科学上网" scheme="https://www.misakano.eu.org/tags/%E7%A7%91%E5%AD%A6%E4%B8%8A%E7%BD%91/"/>
+    
+    <category term="教程" scheme="https://www.misakano.eu.org/tags/%E6%95%99%E7%A8%8B/"/>
     
   </entry>
   
