@@ -6,7 +6,7 @@
   <link href="https://www.misakano.eu.org/atom.xml" rel="self"/>
   
   <link href="https://www.misakano.eu.org/"/>
-  <updated>2021-08-17T12:17:01.195Z</updated>
+  <updated>2021-08-17T13:40:03.545Z</updated>
   <id>https://www.misakano.eu.org/</id>
   
   <author>
@@ -15,6 +15,47 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>cloudstudio体验报告</title>
+    <link href="https://www.misakano.eu.org/2021/08/17/cloudstudio%E4%BD%93%E9%AA%8C%E6%8A%A5%E5%91%8A/"/>
+    <id>https://www.misakano.eu.org/2021/08/17/cloudstudio%E4%BD%93%E9%AA%8C%E6%8A%A5%E5%91%8A/</id>
+    <published>2021-08-17T12:19:54.000Z</published>
+    <updated>2021-08-17T13:40:03.545Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;Cloud Studio 是基于浏览器的集成式开发环境（IDE），为开发者提供了一个永不间断的云端工作站。用户在使用 Cloud Studio 时无需安装，随时随地打开浏览器就能使用。&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&quot;官网&quot;&gt;&lt;a href=&quot;#官网&quot;</summary>
+        
+      
+    
+    
+    
+    
+    <category term="编程" scheme="https://www.misakano.eu.org/tags/%E7%BC%96%E7%A8%8B/"/>
+    
+    <category term="nodejs" scheme="https://www.misakano.eu.org/tags/nodejs/"/>
+    
+    <category term="vps" scheme="https://www.misakano.eu.org/tags/vps/"/>
+    
+    <category term="服务器" scheme="https://www.misakano.eu.org/tags/%E6%9C%8D%E5%8A%A1%E5%99%A8/"/>
+    
+    <category term="cloudstudio" scheme="https://www.misakano.eu.org/tags/cloudstudio/"/>
+    
+    <category term="python" scheme="https://www.misakano.eu.org/tags/python/"/>
+    
+    <category term="vim" scheme="https://www.misakano.eu.org/tags/vim/"/>
+    
+    <category term="javascript" scheme="https://www.misakano.eu.org/tags/javascript/"/>
+    
+    <category term="腾讯云" scheme="https://www.misakano.eu.org/tags/%E8%85%BE%E8%AE%AF%E4%BA%91/"/>
+    
+  </entry>
   
   <entry>
     <title>Ubuntu安装最新版node.js</title>
@@ -104,13 +145,13 @@
     
     <category term="clash" scheme="https://www.misakano.eu.org/tags/clash/"/>
     
-    <category term="科学上网" scheme="https://www.misakano.eu.org/tags/%E7%A7%91%E5%AD%A6%E4%B8%8A%E7%BD%91/"/>
-    
-    <category term="教程" scheme="https://www.misakano.eu.org/tags/%E6%95%99%E7%A8%8B/"/>
-    
     <category term="cdn" scheme="https://www.misakano.eu.org/tags/cdn/"/>
     
     <category term="Clash.NET" scheme="https://www.misakano.eu.org/tags/Clash-NET/"/>
+    
+    <category term="科学上网" scheme="https://www.misakano.eu.org/tags/%E7%A7%91%E5%AD%A6%E4%B8%8A%E7%BD%91/"/>
+    
+    <category term="教程" scheme="https://www.misakano.eu.org/tags/%E6%95%99%E7%A8%8B/"/>
     
   </entry>
   
@@ -142,11 +183,11 @@
     
     <category term="clash" scheme="https://www.misakano.eu.org/tags/clash/"/>
     
+    <category term="科学上网" scheme="https://www.misakano.eu.org/tags/%E7%A7%91%E5%AD%A6%E4%B8%8A%E7%BD%91/"/>
+    
     <category term="cfw" scheme="https://www.misakano.eu.org/tags/cfw/"/>
     
     <category term="clash for windows" scheme="https://www.misakano.eu.org/tags/clash-for-windows/"/>
-    
-    <category term="科学上网" scheme="https://www.misakano.eu.org/tags/%E7%A7%91%E5%AD%A6%E4%B8%8A%E7%BD%91/"/>
     
     <category term="v2ray" scheme="https://www.misakano.eu.org/tags/v2ray/"/>
     
@@ -184,13 +225,13 @@
     
     <category term="clash" scheme="https://www.misakano.eu.org/tags/clash/"/>
     
-    <category term="cfw" scheme="https://www.misakano.eu.org/tags/cfw/"/>
-    
-    <category term="clash for windows" scheme="https://www.misakano.eu.org/tags/clash-for-windows/"/>
-    
     <category term="科学上网" scheme="https://www.misakano.eu.org/tags/%E7%A7%91%E5%AD%A6%E4%B8%8A%E7%BD%91/"/>
     
     <category term="教程" scheme="https://www.misakano.eu.org/tags/%E6%95%99%E7%A8%8B/"/>
+    
+    <category term="cfw" scheme="https://www.misakano.eu.org/tags/cfw/"/>
+    
+    <category term="clash for windows" scheme="https://www.misakano.eu.org/tags/clash-for-windows/"/>
     
   </entry>
   
