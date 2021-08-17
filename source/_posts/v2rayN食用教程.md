@@ -37,7 +37,7 @@ tags:
 1. 使用下方任一方式导入节点
 2. 选中任意一片节点，右键，点击“测试服务器真连接延迟”
 
-![](https://upload.cc/i1/2021/08/17/1siWDd.png)
+![](https://cdn.jsdelivr.net/gh/zzysite/imgs@main/20210817200624.png)
 
 3. 选择相对来说延迟较低的节点，点击`enter`键设置为当前节点
 4. 右键`V`图标
