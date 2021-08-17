@@ -1,6 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>Ubuntu安装最新版node.js</title>
+    <url>/2021/08/17/Ubuntu%E5%AE%89%E8%A3%85%E6%9C%80%E6%96%B0%E7%89%88node-js/</url>
+    <content><![CDATA[<p>这篇文章教大家在Ubuntu下安装nodejs最新版本</p>
+<p>命令如下</p>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">cd ~</span><br><span class="line">apt-get update</span><br><span class="line">wget -O nodejs_latest.sh https://raw.githubusercontent.com/nodesource/distributions/master/deb/setup_current.x</span><br><span class="line">bash nodejs_latest.sh</span><br><span class="line">apt install nodejs</span><br></pre></td></tr></table></figure>
+
+<p>安装完成使用 <code>nodejs -V</code> 和 <code>npm -V</code> 检测<code>nodejs</code>和<code>npm</code>版本</p>
+]]></content>
+      <tags>
+        <tag>编程</tag>
+        <tag>nodejs</tag>
+        <tag>ubuntu</tag>
+        <tag>linux</tag>
+        <tag>vps</tag>
+        <tag>服务器</tag>
+        <tag>乌班图</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>clash for windows食用教程</title>
     <url>/2021/08/15/clash%20for%20windows%E9%A3%9F%E7%94%A8%E6%95%99%E7%A8%8B/</url>
     <content><![CDATA[<p>这篇文章我会从下载、安装、添加订阅和导入的方式来详细讲述如何使用clash for windows</p>
@@ -235,10 +254,10 @@
 </ol>
 ]]></content>
       <tags>
+        <tag>vps</tag>
         <tag>v2ray</tag>
         <tag>rs1.es</tag>
         <tag>hyperbeams</tag>
-        <tag>vps</tag>
         <tag>节点</tag>
         <tag>搭建</tag>
       </tags>

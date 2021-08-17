@@ -6,7 +6,7 @@
   <link href="https://www.misakano.eu.org/atom.xml" rel="self"/>
   
   <link href="https://www.misakano.eu.org/"/>
-  <updated>2021-08-17T11:23:16.477Z</updated>
+  <updated>2021-08-17T12:15:35.064Z</updated>
   <id>https://www.misakano.eu.org/</id>
   
   <author>
@@ -15,6 +15,43 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Ubuntu安装最新版node.js</title>
+    <link href="https://www.misakano.eu.org/2021/08/17/Ubuntu%E5%AE%89%E8%A3%85%E6%9C%80%E6%96%B0%E7%89%88node-js/"/>
+    <id>https://www.misakano.eu.org/2021/08/17/Ubuntu%E5%AE%89%E8%A3%85%E6%9C%80%E6%96%B0%E7%89%88node-js/</id>
+    <published>2021-08-17T12:13:07.000Z</published>
+    <updated>2021-08-17T12:15:35.064Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;这篇文章教大家在Ubuntu下安装nodejs最新版本&lt;/p&gt;
+&lt;p&gt;命令如下&lt;/p&gt;
+&lt;figure class=&quot;highlight shell&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span</summary>
+        
+      
+    
+    
+    
+    
+    <category term="编程" scheme="https://www.misakano.eu.org/tags/%E7%BC%96%E7%A8%8B/"/>
+    
+    <category term="nodejs" scheme="https://www.misakano.eu.org/tags/nodejs/"/>
+    
+    <category term="ubuntu" scheme="https://www.misakano.eu.org/tags/ubuntu/"/>
+    
+    <category term="linux" scheme="https://www.misakano.eu.org/tags/linux/"/>
+    
+    <category term="vps" scheme="https://www.misakano.eu.org/tags/vps/"/>
+    
+    <category term="服务器" scheme="https://www.misakano.eu.org/tags/%E6%9C%8D%E5%8A%A1%E5%99%A8/"/>
+    
+    <category term="乌班图" scheme="https://www.misakano.eu.org/tags/%E4%B9%8C%E7%8F%AD%E5%9B%BE/"/>
+    
+  </entry>
   
   <entry>
     <title>在cloudstudio.net写博客是什么样的体验</title>
@@ -227,13 +264,13 @@
     
     
     
+    <category term="vps" scheme="https://www.misakano.eu.org/tags/vps/"/>
+    
     <category term="v2ray" scheme="https://www.misakano.eu.org/tags/v2ray/"/>
     
     <category term="rs1.es" scheme="https://www.misakano.eu.org/tags/rs1-es/"/>
     
     <category term="hyperbeams" scheme="https://www.misakano.eu.org/tags/hyperbeams/"/>
-    
-    <category term="vps" scheme="https://www.misakano.eu.org/tags/vps/"/>
     
     <category term="节点" scheme="https://www.misakano.eu.org/tags/%E8%8A%82%E7%82%B9/"/>
     
