@@ -437,27 +437,6 @@
 ]]></content>
   </entry>
   <entry>
-    <title>解除Telegram对+86大陆手机号绑定账户的私聊限制的办法</title>
-    <url>/2021/08/15/%E8%A7%A3%E9%99%A4Telegram%E5%AF%B9-86%E5%A4%A7%E9%99%86%E6%89%8B%E6%9C%BA%E5%8F%B7%E7%BB%91%E5%AE%9A%E8%B4%A6%E6%88%B7%E7%9A%84%E7%A7%81%E8%81%8A%E9%99%90%E5%88%B6%E7%9A%84%E5%8A%9E%E6%B3%95/</url>
-    <content><![CDATA[<ol>
-<li>向官方 @SpamBot 发送消息申请(跟着提示操作就行)</li>
-<li>前两步操作是点击下方选项, 不是输入内容, 第三步才是输入内容发送</li>
-<li>大约30分钟左右即可解除限制，有可能更长</li>
-<li>30分钟左右还未解除的就继续等等或再次提交</li>
-<li>Bot不会回复你结果, 自己找人私聊测试</li>
-</ol>
-]]></content>
-      <tags>
-        <tag>Telegram</tag>
-        <tag>电报</tag>
-        <tag>86</tag>
-        <tag>私信</tag>
-        <tag>手机号</tag>
-        <tag>私聊</tag>
-        <tag>PM</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>部分机场无法订阅问题及解决方案</title>
     <url>/2021/08/16/%E9%83%A8%E5%88%86%E6%9C%BA%E5%9C%BA%E6%97%A0%E6%B3%95%E8%AE%A2%E9%98%85%E9%97%AE%E9%A2%98%E5%8F%8A%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88/</url>
     <content><![CDATA[<ol>
@@ -488,6 +467,27 @@
         <tag>订阅</tag>
         <tag>问题</tag>
         <tag>解决方案</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>解除Telegram对+86大陆手机号绑定账户的私聊限制的办法</title>
+    <url>/2021/08/15/%E8%A7%A3%E9%99%A4Telegram%E5%AF%B9-86%E5%A4%A7%E9%99%86%E6%89%8B%E6%9C%BA%E5%8F%B7%E7%BB%91%E5%AE%9A%E8%B4%A6%E6%88%B7%E7%9A%84%E7%A7%81%E8%81%8A%E9%99%90%E5%88%B6%E7%9A%84%E5%8A%9E%E6%B3%95/</url>
+    <content><![CDATA[<ol>
+<li>向官方 @SpamBot 发送消息申请(跟着提示操作就行)</li>
+<li>前两步操作是点击下方选项, 不是输入内容, 第三步才是输入内容发送</li>
+<li>大约30分钟左右即可解除限制，有可能更长</li>
+<li>30分钟左右还未解除的就继续等等或再次提交</li>
+<li>Bot不会回复你结果, 自己找人私聊测试</li>
+</ol>
+]]></content>
+      <tags>
+        <tag>Telegram</tag>
+        <tag>电报</tag>
+        <tag>86</tag>
+        <tag>私信</tag>
+        <tag>手机号</tag>
+        <tag>私聊</tag>
+        <tag>PM</tag>
       </tags>
   </entry>
 </search>
