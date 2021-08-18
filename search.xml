@@ -20,6 +20,88 @@
       </tags>
   </entry>
   <entry>
+    <title>Heroku搭建v2ray节点</title>
+    <url>/2021/08/18/Heroku%E6%90%AD%E5%BB%BAv2ray%E8%8A%82%E7%82%B9/</url>
+    <content><![CDATA[<p>有一部分人觉得VPN和机场不够安全，想要自建。但是一般vps都是要花钱的。免费的vps Euserv只有ipv6的地址，warp的效果也不太理想。有没有能够免费建立节点的提供商呢？这就请到今天的主角——Heroku</p>
+<h2 id="注意事项"><a href="#注意事项" class="headerlink" title="注意事项"></a>注意事项</h2><ol>
+<li>Heroku对流量检测有些严格，请避免大流量消耗</li>
+<li>免费服务请珍惜，勿滥用</li>
+</ol>
+<h2 id="搭建服务端"><a href="#搭建服务端" class="headerlink" title="搭建服务端"></a>搭建服务端</h2><h3 id="无caddy版-（封号概率低）"><a href="#无caddy版-（封号概率低）" class="headerlink" title="无caddy版 （封号概率低）"></a>无caddy版 （封号概率低）</h3><ol>
+<li><p>fork这个项目 <a href="https://github.com/bclswl0827/v2ray-heroku">bclswl0827/v2ray-heroku</a></p>
+</li>
+<li><p>修改项目名称</p>
+</li>
+<li><p>点击<a href="https://id.heroku.com/">此处</a>注册/登录账号</p>
+</li>
+<li><p>访问 <code>https://dashboard.heroku.com/new?template=https://github.com/gayhub用户名/项目名</code></p>
+</li>
+</ol>
+<p>例如：<code>https://dashboard.heroku.com/new?template=https://github.com/mixue/bingcheng</code></p>
+<ol start="5">
+<li><p>输入在heroku部署的App Name、uuid，点击<code>Deploy APP</code></p>
+</li>
+<li><p>完成在Heroku服务端的部署</p>
+</li>
+</ol>
+<h3 id="caddy版-（封号概率稍高）"><a href="#caddy版-（封号概率稍高）" class="headerlink" title="caddy版 （封号概率稍高）"></a>caddy版 （封号概率稍高）</h3><ol>
+<li><p>fork这个项目 <a href="https://github.com/mixool/xrayku">mixool/xrayku</a></p>
+</li>
+<li><p>修改项目名称</p>
+</li>
+<li><p>点击<a href="https://id.heroku.com/">此处</a>注册/登录账号</p>
+</li>
+<li><p>访问 <code>https://dashboard.heroku.com/new?template=https://github.com/gayhub用户名/项目名</code></p>
+</li>
+</ol>
+<p>例如：<code>https://dashboard.heroku.com/new?template=https://github.com/mixue/bingcheng</code></p>
+<ol start="5">
+<li><p>输入在heroku部署的App Name、uuid，点击<code>Deploy APP</code></p>
+</li>
+<li><p>完成在Heroku服务端的部署</p>
+</li>
+</ol>
+<h2 id="CloudFlare-反代"><a href="#CloudFlare-反代" class="headerlink" title="CloudFlare 反代"></a>CloudFlare 反代</h2><ol>
+<li><p>在<a href="https://dash.cloudflare.com/">此处</a>注册/登录CloudFlare（以下简称CF）账号</p>
+</li>
+<li><p>转到workers页面</p>
+</li>
+<li><p>创建workers</p>
+</li>
+<li><p>把自带的代码换成下面这个</p>
+</li>
+</ol>
+<figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line"><span class="keyword">const</span> SingleDay = <span class="string">&#x27;应用程序名1.herokuapp.com&#x27;</span></span><br><span class="line"><span class="keyword">const</span> DoubleDay = <span class="string">&#x27;应用程序名2.herokuapp.com&#x27;</span></span><br><span class="line">addEventListener(</span><br><span class="line">    <span class="string">&quot;fetch&quot;</span>,<span class="function"><span class="params">event</span> =&gt;</span> &#123;</span><br><span class="line">    </span><br><span class="line">        <span class="keyword">let</span> nd = <span class="keyword">new</span> <span class="built_in">Date</span>();</span><br><span class="line">        <span class="keyword">if</span> (nd.getDate()%<span class="number">2</span>) &#123;</span><br><span class="line">            host = SingleDay</span><br><span class="line">        &#125; <span class="keyword">else</span> &#123;</span><br><span class="line">            host = DoubleDay</span><br><span class="line">        &#125;</span><br><span class="line">        </span><br><span class="line">        <span class="keyword">let</span> url=<span class="keyword">new</span> URL(event.request.url);</span><br><span class="line">        url.hostname=host;</span><br><span class="line">        <span class="keyword">let</span> request=<span class="keyword">new</span> Request(url,event.request);</span><br><span class="line">        event. respondWith(</span><br><span class="line">            fetch(request)</span><br><span class="line">        )</span><br><span class="line">    &#125;</span><br><span class="line">)</span><br></pre></td></tr></table></figure>
+<ol start="5">
+<li><p>点击<code>Save and deploy</code></p>
+</li>
+<li><p>记录下workers的三级域名</p>
+</li>
+</ol>
+<h2 id="配置教程"><a href="#配置教程" class="headerlink" title="配置教程"></a>配置教程</h2><ol>
+<li><p>打开v2rayN或其他客户端</p>
+</li>
+<li><p>新建一个vmess服务器</p>
+</li>
+<li><p>参考以下信息配置</p>
+</li>
+</ol>
+<h3 id="无caddy版"><a href="#无caddy版" class="headerlink" title="无caddy版"></a>无caddy版</h3><p>地址：<code>cf优选ip</code><br>端口：<code>443</code><br>uuid：<code>你设置的uuid</code><br>额外id：<code>64</code><br>加密方式：<code>auto</code><br>别名：<code>自行命名</code><br>传输协议：<code>ws</code><br>底层传输安全：<code>tls</code><br>伪装类型：<code>none</code><br>伪装域名：<code>你的workers域名</code><br>SNI：<code>你的workers域名</code><br>路径：<code>/</code></p>
+<h3 id="caddy版"><a href="#caddy版" class="headerlink" title="caddy版"></a>caddy版</h3><p>地址：<code>cf优选ip</code><br>端口：<code>443</code><br>uuid：<code>你设置的uuid</code><br>额外id：<code>0</code><br>加密方式：<code>auto</code><br>别名：<code>自行命名</code><br>传输协议：<code>ws</code><br>底层传输安全：<code>tls</code><br>伪装类型：<code>none</code><br>伪装域名：<code>你的workers域名</code><br>SNI：<code>你的workers域名</code><br>路径：<code>/你设置的uuid-vmess</code></p>
+<ol start="4">
+<li>测试连接，大功告成</li>
+</ol>
+]]></content>
+      <tags>
+        <tag>v2ray</tag>
+        <tag>翻墙</tag>
+        <tag>科学上网</tag>
+        <tag>Heroku</tag>
+        <tag>节点</tag>
+        <tag>v2</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Ubuntu安装最新版node.js</title>
     <url>/2021/08/17/Ubuntu%E5%AE%89%E8%A3%85%E6%9C%80%E6%96%B0%E7%89%88node-js/</url>
     <content><![CDATA[<p>这篇文章教大家在Ubuntu下安装nodejs最新版本</p>
@@ -256,8 +338,8 @@
       <tags>
         <tag>v2ray</tag>
         <tag>科学上网</tag>
-        <tag>教程</tag>
         <tag>v2</tag>
+        <tag>教程</tag>
       </tags>
   </entry>
   <entry>
@@ -300,10 +382,10 @@
 ]]></content>
       <tags>
         <tag>v2ray</tag>
+        <tag>节点</tag>
         <tag>vps</tag>
         <tag>rs1.es</tag>
         <tag>hyperbeams</tag>
-        <tag>节点</tag>
         <tag>搭建</tag>
       </tags>
   </entry>

@@ -20,19 +20,25 @@
     var CONFIG = {"hostname":"www.misakano.eu.org","root":"/","scheme":"Pisces","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":true},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},"path":"search.xml"};
   </script>
 
-  <meta name="description" content="主域名： https:&#x2F;&#x2F;www.misakano.eu.org&#x2F; 镜像域名： https:&#x2F;&#x2F;blog-878.pages.dev&#x2F;https:&#x2F;&#x2F;misakanoblog.netlify.app&#x2F;https:&#x2F;&#x2F;blog.misakanode.cf&#x2F; 注意：使用镜像域名时，是无法对文章进行评论的！！！">
+  <meta name="description" content="有一部分人觉得VPN和机场不够安全，想要自建。但是一般vps都是要花钱的。免费的vps Euserv只有ipv6的地址，warp的效果也不太理想。有没有能够免费建立节点的提供商呢？这就请到今天的主角——Heroku 注意事项 Heroku对流量检测有些严格，请避免大流量消耗 免费服务请珍惜，勿滥用  搭建服务端无caddy版 （封号概率低） fork这个项目 bclswl0827&#x2F;v2ray-he">
 <meta property="og:type" content="article">
-<meta property="og:title" content="网站镜像域名">
-<meta property="og:url" content="https://www.misakano.eu.org/2021/08/15/%E7%BD%91%E7%AB%99%E9%95%9C%E5%83%8F%E5%9F%9F%E5%90%8D/index.html">
+<meta property="og:title" content="Heroku搭建v2ray节点">
+<meta property="og:url" content="https://www.misakano.eu.org/2021/08/18/Heroku%E6%90%AD%E5%BB%BAv2ray%E8%8A%82%E7%82%B9/index.html">
 <meta property="og:site_name" content="小御坂的破站">
-<meta property="og:description" content="主域名： https:&#x2F;&#x2F;www.misakano.eu.org&#x2F; 镜像域名： https:&#x2F;&#x2F;blog-878.pages.dev&#x2F;https:&#x2F;&#x2F;misakanoblog.netlify.app&#x2F;https:&#x2F;&#x2F;blog.misakanode.cf&#x2F; 注意：使用镜像域名时，是无法对文章进行评论的！！！">
+<meta property="og:description" content="有一部分人觉得VPN和机场不够安全，想要自建。但是一般vps都是要花钱的。免费的vps Euserv只有ipv6的地址，warp的效果也不太理想。有没有能够免费建立节点的提供商呢？这就请到今天的主角——Heroku 注意事项 Heroku对流量检测有些严格，请避免大流量消耗 免费服务请珍惜，勿滥用  搭建服务端无caddy版 （封号概率低） fork这个项目 bclswl0827&#x2F;v2ray-he">
 <meta property="og:locale" content="zh_CN">
-<meta property="article:published_time" content="2021-08-15T06:42:50.000Z">
-<meta property="article:modified_time" content="2021-08-17T11:23:16.477Z">
+<meta property="article:published_time" content="2021-08-18T06:57:59.000Z">
+<meta property="article:modified_time" content="2021-08-18T07:50:52.114Z">
 <meta property="article:author" content="MisakaNo">
+<meta property="article:tag" content="v2ray">
+<meta property="article:tag" content="翻墙">
+<meta property="article:tag" content="科学上网">
+<meta property="article:tag" content="Heroku">
+<meta property="article:tag" content="节点">
+<meta property="article:tag" content="v2">
 <meta name="twitter:card" content="summary">
 
-<link rel="canonical" href="https://www.misakano.eu.org/2021/08/15/%E7%BD%91%E7%AB%99%E9%95%9C%E5%83%8F%E5%9F%9F%E5%90%8D/">
+<link rel="canonical" href="https://www.misakano.eu.org/2021/08/18/Heroku%E6%90%AD%E5%BB%BAv2ray%E8%8A%82%E7%82%B9/">
 
 
 <script id="page-configurations">
@@ -45,7 +51,7 @@
   };
 </script>
 
-  <title>网站镜像域名 | 小御坂的破站</title>
+  <title>Heroku搭建v2ray节点 | 小御坂的破站</title>
   
 
 
@@ -190,7 +196,7 @@
   
   
   <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="https://www.misakano.eu.org/2021/08/15/%E7%BD%91%E7%AB%99%E9%95%9C%E5%83%8F%E5%9F%9F%E5%90%8D/">
+    <link itemprop="mainEntityOfPage" href="https://www.misakano.eu.org/2021/08/18/Heroku%E6%90%AD%E5%BB%BAv2ray%E8%8A%82%E7%82%B9/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="https://cdn.jsdelivr.net/gh/zzysite/imgs@main/20210815142726.png">
@@ -203,7 +209,7 @@
     </span>
       <header class="post-header">
         <h1 class="post-title" itemprop="name headline">
-          网站镜像域名
+          Heroku搭建v2ray节点
         </h1>
 
         <div class="post-meta">
@@ -212,16 +218,10 @@
                 <i class="far fa-calendar"></i>
               </span>
               <span class="post-meta-item-text">发表于</span>
+              
 
-              <time title="创建时间：2021-08-15 14:42:50" itemprop="dateCreated datePublished" datetime="2021-08-15T14:42:50+08:00">2021-08-15</time>
+              <time title="创建时间：2021-08-18 14:57:59 / 修改时间：15:50:52" itemprop="dateCreated datePublished" datetime="2021-08-18T14:57:59+08:00">2021-08-18</time>
             </span>
-              <span class="post-meta-item">
-                <span class="post-meta-item-icon">
-                  <i class="far fa-calendar-check"></i>
-                </span>
-                <span class="post-meta-item-text">更新于</span>
-                <time title="修改时间：2021-08-17 19:23:16" itemprop="dateModified" datetime="2021-08-17T19:23:16+08:00">2021-08-17</time>
-              </span>
 
           
 
@@ -234,10 +234,75 @@
     <div class="post-body" itemprop="articleBody">
 
       
-        <p>主域名： <a href="https://www.misakano.eu.org/">https://www.misakano.eu.org/</a></p>
-<p>镜像域名：</p>
-<p><a target="_blank" rel="noopener" href="https://blog-878.pages.dev/">https://blog-878.pages.dev/</a><br><a target="_blank" rel="noopener" href="https://misakanoblog.netlify.app/">https://misakanoblog.netlify.app/</a><br><a target="_blank" rel="noopener" href="https://blog.misakanode.cf/">https://blog.misakanode.cf/</a></p>
-<p>注意：使用镜像域名时，是无法对文章进行评论的！！！</p>
+        <p>有一部分人觉得VPN和机场不够安全，想要自建。但是一般vps都是要花钱的。免费的vps Euserv只有ipv6的地址，warp的效果也不太理想。有没有能够免费建立节点的提供商呢？这就请到今天的主角——Heroku</p>
+<h2 id="注意事项"><a href="#注意事项" class="headerlink" title="注意事项"></a>注意事项</h2><ol>
+<li>Heroku对流量检测有些严格，请避免大流量消耗</li>
+<li>免费服务请珍惜，勿滥用</li>
+</ol>
+<h2 id="搭建服务端"><a href="#搭建服务端" class="headerlink" title="搭建服务端"></a>搭建服务端</h2><h3 id="无caddy版-（封号概率低）"><a href="#无caddy版-（封号概率低）" class="headerlink" title="无caddy版 （封号概率低）"></a>无caddy版 （封号概率低）</h3><ol>
+<li><p>fork这个项目 <a target="_blank" rel="noopener" href="https://github.com/bclswl0827/v2ray-heroku">bclswl0827/v2ray-heroku</a></p>
+</li>
+<li><p>修改项目名称</p>
+</li>
+<li><p>点击<a target="_blank" rel="noopener" href="https://id.heroku.com/">此处</a>注册/登录账号</p>
+</li>
+<li><p>访问 <code>https://dashboard.heroku.com/new?template=https://github.com/gayhub用户名/项目名</code></p>
+</li>
+</ol>
+<p>例如：<code>https://dashboard.heroku.com/new?template=https://github.com/mixue/bingcheng</code></p>
+<ol start="5">
+<li><p>输入在heroku部署的App Name、uuid，点击<code>Deploy APP</code></p>
+</li>
+<li><p>完成在Heroku服务端的部署</p>
+</li>
+</ol>
+<h3 id="caddy版-（封号概率稍高）"><a href="#caddy版-（封号概率稍高）" class="headerlink" title="caddy版 （封号概率稍高）"></a>caddy版 （封号概率稍高）</h3><ol>
+<li><p>fork这个项目 <a target="_blank" rel="noopener" href="https://github.com/mixool/xrayku">mixool/xrayku</a></p>
+</li>
+<li><p>修改项目名称</p>
+</li>
+<li><p>点击<a target="_blank" rel="noopener" href="https://id.heroku.com/">此处</a>注册/登录账号</p>
+</li>
+<li><p>访问 <code>https://dashboard.heroku.com/new?template=https://github.com/gayhub用户名/项目名</code></p>
+</li>
+</ol>
+<p>例如：<code>https://dashboard.heroku.com/new?template=https://github.com/mixue/bingcheng</code></p>
+<ol start="5">
+<li><p>输入在heroku部署的App Name、uuid，点击<code>Deploy APP</code></p>
+</li>
+<li><p>完成在Heroku服务端的部署</p>
+</li>
+</ol>
+<h2 id="CloudFlare-反代"><a href="#CloudFlare-反代" class="headerlink" title="CloudFlare 反代"></a>CloudFlare 反代</h2><ol>
+<li><p>在<a target="_blank" rel="noopener" href="https://dash.cloudflare.com/">此处</a>注册/登录CloudFlare（以下简称CF）账号</p>
+</li>
+<li><p>转到workers页面</p>
+</li>
+<li><p>创建workers</p>
+</li>
+<li><p>把自带的代码换成下面这个</p>
+</li>
+</ol>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">const</span> SingleDay = <span class="string">&#x27;应用程序名1.herokuapp.com&#x27;</span></span><br><span class="line"><span class="keyword">const</span> DoubleDay = <span class="string">&#x27;应用程序名2.herokuapp.com&#x27;</span></span><br><span class="line">addEventListener(</span><br><span class="line">    <span class="string">&quot;fetch&quot;</span>,<span class="function"><span class="params">event</span> =&gt;</span> &#123;</span><br><span class="line">    </span><br><span class="line">        <span class="keyword">let</span> nd = <span class="keyword">new</span> <span class="built_in">Date</span>();</span><br><span class="line">        <span class="keyword">if</span> (nd.getDate()%<span class="number">2</span>) &#123;</span><br><span class="line">            host = SingleDay</span><br><span class="line">        &#125; <span class="keyword">else</span> &#123;</span><br><span class="line">            host = DoubleDay</span><br><span class="line">        &#125;</span><br><span class="line">        </span><br><span class="line">        <span class="keyword">let</span> url=<span class="keyword">new</span> URL(event.request.url);</span><br><span class="line">        url.hostname=host;</span><br><span class="line">        <span class="keyword">let</span> request=<span class="keyword">new</span> Request(url,event.request);</span><br><span class="line">        event. respondWith(</span><br><span class="line">            fetch(request)</span><br><span class="line">        )</span><br><span class="line">    &#125;</span><br><span class="line">)</span><br></pre></td></tr></table></figure>
+<ol start="5">
+<li><p>点击<code>Save and deploy</code></p>
+</li>
+<li><p>记录下workers的三级域名</p>
+</li>
+</ol>
+<h2 id="配置教程"><a href="#配置教程" class="headerlink" title="配置教程"></a>配置教程</h2><ol>
+<li><p>打开v2rayN或其他客户端</p>
+</li>
+<li><p>新建一个vmess服务器</p>
+</li>
+<li><p>参考以下信息配置</p>
+</li>
+</ol>
+<h3 id="无caddy版"><a href="#无caddy版" class="headerlink" title="无caddy版"></a>无caddy版</h3><p>地址：<code>cf优选ip</code><br>端口：<code>443</code><br>uuid：<code>你设置的uuid</code><br>额外id：<code>64</code><br>加密方式：<code>auto</code><br>别名：<code>自行命名</code><br>传输协议：<code>ws</code><br>底层传输安全：<code>tls</code><br>伪装类型：<code>none</code><br>伪装域名：<code>你的workers域名</code><br>SNI：<code>你的workers域名</code><br>路径：<code>/</code></p>
+<h3 id="caddy版"><a href="#caddy版" class="headerlink" title="caddy版"></a>caddy版</h3><p>地址：<code>cf优选ip</code><br>端口：<code>443</code><br>uuid：<code>你设置的uuid</code><br>额外id：<code>0</code><br>加密方式：<code>auto</code><br>别名：<code>自行命名</code><br>传输协议：<code>ws</code><br>底层传输安全：<code>tls</code><br>伪装类型：<code>none</code><br>伪装域名：<code>你的workers域名</code><br>SNI：<code>你的workers域名</code><br>路径：<code>/你设置的uuid-vmess</code></p>
+<ol start="4">
+<li>测试连接，大功告成</li>
+</ol>
 
     </div>
 
@@ -246,6 +311,14 @@
     
 
       <footer class="post-footer">
+          <div class="post-tags">
+              <a href="/tags/v2ray/" rel="tag"># v2ray</a>
+              <a href="/tags/%E7%BF%BB%E5%A2%99/" rel="tag"># 翻墙</a>
+              <a href="/tags/%E7%A7%91%E5%AD%A6%E4%B8%8A%E7%BD%91/" rel="tag"># 科学上网</a>
+              <a href="/tags/Heroku/" rel="tag"># Heroku</a>
+              <a href="/tags/%E8%8A%82%E7%82%B9/" rel="tag"># 节点</a>
+              <a href="/tags/v2/" rel="tag"># v2</a>
+          </div>
 
         
 
@@ -253,13 +326,10 @@
         
     <div class="post-nav">
       <div class="post-nav-item">
-    <a href="/2021/08/15/%E4%BD%BF%E7%94%A8hyperbeam-com%E6%9D%A5%E7%99%BD%E5%AB%96rs1-es/" rel="prev" title="使用hyperbeam.com来白嫖rs1.es">
-      <i class="fa fa-chevron-left"></i> 使用hyperbeam.com来白嫖rs1.es
+    <a href="/2021/08/17/Azure-F4S-%E5%85%AC%E7%9B%8A%E4%B8%AD%E8%BD%AC-from-%E5%B2%9B%E4%B8%BB/" rel="prev" title="Azure F4S 公益中转 from 岛主">
+      <i class="fa fa-chevron-left"></i> Azure F4S 公益中转 from 岛主
     </a></div>
-      <div class="post-nav-item">
-    <a href="/2021/08/15/v2rayN%E9%A3%9F%E7%94%A8%E6%95%99%E7%A8%8B/" rel="next" title="v2rayN食用教程">
-      v2rayN食用教程 <i class="fa fa-chevron-right"></i>
-    </a></div>
+      <div class="post-nav-item"></div>
     </div>
       </footer>
     
@@ -319,6 +389,7 @@
 
       <!--noindex-->
       <div class="post-toc-wrap sidebar-panel">
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E6%B3%A8%E6%84%8F%E4%BA%8B%E9%A1%B9"><span class="nav-number">1.</span> <span class="nav-text">注意事项</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E6%90%AD%E5%BB%BA%E6%9C%8D%E5%8A%A1%E7%AB%AF"><span class="nav-number">2.</span> <span class="nav-text">搭建服务端</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%97%A0caddy%E7%89%88-%EF%BC%88%E5%B0%81%E5%8F%B7%E6%A6%82%E7%8E%87%E4%BD%8E%EF%BC%89"><span class="nav-number">2.1.</span> <span class="nav-text">无caddy版 （封号概率低）</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#caddy%E7%89%88-%EF%BC%88%E5%B0%81%E5%8F%B7%E6%A6%82%E7%8E%87%E7%A8%8D%E9%AB%98%EF%BC%89"><span class="nav-number">2.2.</span> <span class="nav-text">caddy版 （封号概率稍高）</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#CloudFlare-%E5%8F%8D%E4%BB%A3"><span class="nav-number">3.</span> <span class="nav-text">CloudFlare 反代</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E9%85%8D%E7%BD%AE%E6%95%99%E7%A8%8B"><span class="nav-number">4.</span> <span class="nav-text">配置教程</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%97%A0caddy%E7%89%88"><span class="nav-number">4.1.</span> <span class="nav-text">无caddy版</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#caddy%E7%89%88"><span class="nav-number">4.2.</span> <span class="nav-text">caddy版</span></a></li></ol></li></ol></div>
       </div>
       <!--/noindex-->
 
@@ -461,7 +532,7 @@ NexT.utils.loadComments(document.querySelector('#gitalk-container'), () => {
       repo        : 'blog',
       owner       : 'zzysite',
       admin       : ['zzysite'],
-      id          : '67c4fc89d9a7588433cea812d41e235f',
+      id          : '1224a393ade2ae54e980e51f16ecb012',
         language: 'zh-CN',
       distractionFreeMode: true
     });

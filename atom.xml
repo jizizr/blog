@@ -6,7 +6,7 @@
   <link href="https://www.misakano.eu.org/atom.xml" rel="self"/>
   
   <link href="https://www.misakano.eu.org/"/>
-  <updated>2021-08-17T14:02:07.526Z</updated>
+  <updated>2021-08-18T07:50:52.114Z</updated>
   <id>https://www.misakano.eu.org/</id>
   
   <author>
@@ -15,6 +15,40 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Heroku搭建v2ray节点</title>
+    <link href="https://www.misakano.eu.org/2021/08/18/Heroku%E6%90%AD%E5%BB%BAv2ray%E8%8A%82%E7%82%B9/"/>
+    <id>https://www.misakano.eu.org/2021/08/18/Heroku%E6%90%AD%E5%BB%BAv2ray%E8%8A%82%E7%82%B9/</id>
+    <published>2021-08-18T06:57:59.000Z</published>
+    <updated>2021-08-18T07:50:52.114Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;有一部分人觉得VPN和机场不够安全，想要自建。但是一般vps都是要花钱的。免费的vps Euserv只有ipv6的地址，warp的效果也不太理想。有没有能够免费建立节点的提供商呢？这就请到今天的主角——Heroku&lt;/p&gt;
+&lt;h2 id=&quot;注意事项&quot;&gt;&lt;a</summary>
+        
+      
+    
+    
+    
+    
+    <category term="v2ray" scheme="https://www.misakano.eu.org/tags/v2ray/"/>
+    
+    <category term="翻墙" scheme="https://www.misakano.eu.org/tags/%E7%BF%BB%E5%A2%99/"/>
+    
+    <category term="科学上网" scheme="https://www.misakano.eu.org/tags/%E7%A7%91%E5%AD%A6%E4%B8%8A%E7%BD%91/"/>
+    
+    <category term="Heroku" scheme="https://www.misakano.eu.org/tags/Heroku/"/>
+    
+    <category term="节点" scheme="https://www.misakano.eu.org/tags/%E8%8A%82%E7%82%B9/"/>
+    
+    <category term="v2" scheme="https://www.misakano.eu.org/tags/v2/"/>
+    
+  </entry>
   
   <entry>
     <title>Azure F4S 公益中转 from 岛主</title>
@@ -298,9 +332,9 @@
     
     <category term="科学上网" scheme="https://www.misakano.eu.org/tags/%E7%A7%91%E5%AD%A6%E4%B8%8A%E7%BD%91/"/>
     
-    <category term="教程" scheme="https://www.misakano.eu.org/tags/%E6%95%99%E7%A8%8B/"/>
-    
     <category term="v2" scheme="https://www.misakano.eu.org/tags/v2/"/>
+    
+    <category term="教程" scheme="https://www.misakano.eu.org/tags/%E6%95%99%E7%A8%8B/"/>
     
   </entry>
   
@@ -348,13 +382,13 @@
     
     <category term="v2ray" scheme="https://www.misakano.eu.org/tags/v2ray/"/>
     
+    <category term="节点" scheme="https://www.misakano.eu.org/tags/%E8%8A%82%E7%82%B9/"/>
+    
     <category term="vps" scheme="https://www.misakano.eu.org/tags/vps/"/>
     
     <category term="rs1.es" scheme="https://www.misakano.eu.org/tags/rs1-es/"/>
     
     <category term="hyperbeams" scheme="https://www.misakano.eu.org/tags/hyperbeams/"/>
-    
-    <category term="节点" scheme="https://www.misakano.eu.org/tags/%E8%8A%82%E7%82%B9/"/>
     
     <category term="搭建" scheme="https://www.misakano.eu.org/tags/%E6%90%AD%E5%BB%BA/"/>
     
