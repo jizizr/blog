@@ -16,3 +16,9 @@ tags:
 
 1. Heroku对流量检测有些严格，请避免大流量消耗
 2. 免费服务请珍惜，勿滥用
+
+## 搭建方法
+
+### 无caddy版 （封号概率低）
+
+1. fork这个项目 [bclswl0827/v2ray-heroku](https://github.com/bclswl0827/v2ray-heroku)
