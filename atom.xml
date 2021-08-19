@@ -6,7 +6,7 @@
   <link href="https://www.misakano.eu.org/atom.xml" rel="self"/>
   
   <link href="https://www.misakano.eu.org/"/>
-  <updated>2021-08-18T10:28:30.601Z</updated>
+  <updated>2021-08-19T04:19:31.200Z</updated>
   <id>https://www.misakano.eu.org/</id>
   
   <author>
@@ -15,6 +15,47 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>岛主 Azure F4S 中转使用教程</title>
+    <link href="https://www.misakano.eu.org/2021/08/19/%E5%B2%9B%E4%B8%BB-Azure-F4S-%E4%B8%AD%E8%BD%AC%E4%BD%BF%E7%94%A8%E6%95%99%E7%A8%8B/"/>
+    <id>https://www.misakano.eu.org/2021/08/19/%E5%B2%9B%E4%B8%BB-Azure-F4S-%E4%B8%AD%E8%BD%AC%E4%BD%BF%E7%94%A8%E6%95%99%E7%A8%8B/</id>
+    <published>2021-08-19T04:08:18.000Z</published>
+    <updated>2021-08-19T04:19:31.200Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;上一次我在博客发出来的文章，有人在评论区建议我写一篇教程，那么我就来以我的Heroku US节点演示一下如何使用岛主的中转&lt;/p&gt;
+&lt;p&gt;本文演示的是vmess ws+tls节点的食用&lt;/p&gt;
+&lt;h2 id=&quot;准备材料&quot;&gt;&lt;a href=&quot;#准备材料&quot;</summary>
+        
+      
+    
+    
+    
+    
+    <category term="v2ray" scheme="https://www.misakano.eu.org/tags/v2ray/"/>
+    
+    <category term="科学上网" scheme="https://www.misakano.eu.org/tags/%E7%A7%91%E5%AD%A6%E4%B8%8A%E7%BD%91/"/>
+    
+    <category term="中转" scheme="https://www.misakano.eu.org/tags/%E4%B8%AD%E8%BD%AC/"/>
+    
+    <category term="clash" scheme="https://www.misakano.eu.org/tags/clash/"/>
+    
+    <category term="cdn" scheme="https://www.misakano.eu.org/tags/cdn/"/>
+    
+    <category term="cfw" scheme="https://www.misakano.eu.org/tags/cfw/"/>
+    
+    <category term="Clash.NET" scheme="https://www.misakano.eu.org/tags/Clash-NET/"/>
+    
+    <category term="clash for windows" scheme="https://www.misakano.eu.org/tags/clash-for-windows/"/>
+    
+    <category term="翻墙" scheme="https://www.misakano.eu.org/tags/%E7%BF%BB%E5%A2%99/"/>
+    
+  </entry>
   
   <entry>
     <title>RSS测试</title>
@@ -34,7 +75,7 @@
     <link href="https://www.misakano.eu.org/2021/08/18/Heroku%E6%90%AD%E5%BB%BAv2ray%E8%8A%82%E7%82%B9/"/>
     <id>https://www.misakano.eu.org/2021/08/18/Heroku%E6%90%AD%E5%BB%BAv2ray%E8%8A%82%E7%82%B9/</id>
     <published>2021-08-18T06:57:59.000Z</published>
-    <updated>2021-08-18T10:14:08.373Z</updated>
+    <updated>2021-08-19T04:07:41.271Z</updated>
     
     
       
@@ -51,15 +92,15 @@
     
     <category term="v2ray" scheme="https://www.misakano.eu.org/tags/v2ray/"/>
     
-    <category term="翻墙" scheme="https://www.misakano.eu.org/tags/%E7%BF%BB%E5%A2%99/"/>
+    <category term="v2" scheme="https://www.misakano.eu.org/tags/v2/"/>
     
     <category term="科学上网" scheme="https://www.misakano.eu.org/tags/%E7%A7%91%E5%AD%A6%E4%B8%8A%E7%BD%91/"/>
+    
+    <category term="翻墙" scheme="https://www.misakano.eu.org/tags/%E7%BF%BB%E5%A2%99/"/>
     
     <category term="Heroku" scheme="https://www.misakano.eu.org/tags/Heroku/"/>
     
     <category term="节点" scheme="https://www.misakano.eu.org/tags/%E8%8A%82%E7%82%B9/"/>
-    
-    <category term="v2" scheme="https://www.misakano.eu.org/tags/v2/"/>
     
   </entry>
   
@@ -82,9 +123,11 @@
     
     
     
-    <category term="中转" scheme="https://www.misakano.eu.org/tags/%E4%B8%AD%E8%BD%AC/"/>
-    
     <category term="v2ray" scheme="https://www.misakano.eu.org/tags/v2ray/"/>
+    
+    <category term="科学上网" scheme="https://www.misakano.eu.org/tags/%E7%A7%91%E5%AD%A6%E4%B8%8A%E7%BD%91/"/>
+    
+    <category term="中转" scheme="https://www.misakano.eu.org/tags/%E4%B8%AD%E8%BD%AC/"/>
     
     <category term="clash" scheme="https://www.misakano.eu.org/tags/clash/"/>
     
@@ -97,8 +140,6 @@
     <category term="clash for windows" scheme="https://www.misakano.eu.org/tags/clash-for-windows/"/>
     
     <category term="翻墙" scheme="https://www.misakano.eu.org/tags/%E7%BF%BB%E5%A2%99/"/>
-    
-    <category term="科学上网" scheme="https://www.misakano.eu.org/tags/%E7%A7%91%E5%AD%A6%E4%B8%8A%E7%BD%91/"/>
     
   </entry>
   
@@ -229,15 +270,15 @@
     
     
     
+    <category term="科学上网" scheme="https://www.misakano.eu.org/tags/%E7%A7%91%E5%AD%A6%E4%B8%8A%E7%BD%91/"/>
+    
+    <category term="教程" scheme="https://www.misakano.eu.org/tags/%E6%95%99%E7%A8%8B/"/>
+    
     <category term="clash" scheme="https://www.misakano.eu.org/tags/clash/"/>
     
     <category term="cdn" scheme="https://www.misakano.eu.org/tags/cdn/"/>
     
     <category term="Clash.NET" scheme="https://www.misakano.eu.org/tags/Clash-NET/"/>
-    
-    <category term="科学上网" scheme="https://www.misakano.eu.org/tags/%E7%A7%91%E5%AD%A6%E4%B8%8A%E7%BD%91/"/>
-    
-    <category term="教程" scheme="https://www.misakano.eu.org/tags/%E6%95%99%E7%A8%8B/"/>
     
   </entry>
   
@@ -269,15 +310,15 @@
     
     <category term="v2ray" scheme="https://www.misakano.eu.org/tags/v2ray/"/>
     
+    <category term="v2" scheme="https://www.misakano.eu.org/tags/v2/"/>
+    
+    <category term="科学上网" scheme="https://www.misakano.eu.org/tags/%E7%A7%91%E5%AD%A6%E4%B8%8A%E7%BD%91/"/>
+    
     <category term="clash" scheme="https://www.misakano.eu.org/tags/clash/"/>
     
     <category term="cfw" scheme="https://www.misakano.eu.org/tags/cfw/"/>
     
     <category term="clash for windows" scheme="https://www.misakano.eu.org/tags/clash-for-windows/"/>
-    
-    <category term="科学上网" scheme="https://www.misakano.eu.org/tags/%E7%A7%91%E5%AD%A6%E4%B8%8A%E7%BD%91/"/>
-    
-    <category term="v2" scheme="https://www.misakano.eu.org/tags/v2/"/>
     
     <category term="机场" scheme="https://www.misakano.eu.org/tags/%E6%9C%BA%E5%9C%BA/"/>
     
@@ -309,15 +350,15 @@
     
     
     
+    <category term="科学上网" scheme="https://www.misakano.eu.org/tags/%E7%A7%91%E5%AD%A6%E4%B8%8A%E7%BD%91/"/>
+    
+    <category term="教程" scheme="https://www.misakano.eu.org/tags/%E6%95%99%E7%A8%8B/"/>
+    
     <category term="clash" scheme="https://www.misakano.eu.org/tags/clash/"/>
     
     <category term="cfw" scheme="https://www.misakano.eu.org/tags/cfw/"/>
     
     <category term="clash for windows" scheme="https://www.misakano.eu.org/tags/clash-for-windows/"/>
-    
-    <category term="科学上网" scheme="https://www.misakano.eu.org/tags/%E7%A7%91%E5%AD%A6%E4%B8%8A%E7%BD%91/"/>
-    
-    <category term="教程" scheme="https://www.misakano.eu.org/tags/%E6%95%99%E7%A8%8B/"/>
     
   </entry>
   
@@ -343,9 +384,9 @@
     
     <category term="v2ray" scheme="https://www.misakano.eu.org/tags/v2ray/"/>
     
-    <category term="科学上网" scheme="https://www.misakano.eu.org/tags/%E7%A7%91%E5%AD%A6%E4%B8%8A%E7%BD%91/"/>
-    
     <category term="v2" scheme="https://www.misakano.eu.org/tags/v2/"/>
+    
+    <category term="科学上网" scheme="https://www.misakano.eu.org/tags/%E7%A7%91%E5%AD%A6%E4%B8%8A%E7%BD%91/"/>
     
     <category term="教程" scheme="https://www.misakano.eu.org/tags/%E6%95%99%E7%A8%8B/"/>
     

@@ -8,15 +8,15 @@
 <p><img src="https://cdn.jsdelivr.net/gh/zzysite/imgs@main/20210817215820.png"></p>
 ]]></content>
       <tags>
-        <tag>中转</tag>
         <tag>v2ray</tag>
+        <tag>科学上网</tag>
+        <tag>中转</tag>
         <tag>clash</tag>
         <tag>cdn</tag>
         <tag>cfw</tag>
         <tag>Clash.NET</tag>
         <tag>clash for windows</tag>
         <tag>翻墙</tag>
-        <tag>科学上网</tag>
       </tags>
   </entry>
   <entry>
@@ -27,25 +27,8 @@
 <li>Heroku对流量检测有些严格，请避免大流量消耗</li>
 <li>免费服务请珍惜，勿滥用</li>
 </ol>
-<h2 id="搭建服务端"><a href="#搭建服务端" class="headerlink" title="搭建服务端"></a>搭建服务端</h2><h3 id="无caddy版-（封号概率低）"><a href="#无caddy版-（封号概率低）" class="headerlink" title="无caddy版 （封号概率低）"></a>无caddy版 （封号概率低）</h3><ol>
+<h2 id="搭建服务端"><a href="#搭建服务端" class="headerlink" title="搭建服务端"></a>搭建服务端</h2><ol>
 <li><p>fork这个项目 <a href="https://github.com/bclswl0827/v2ray-heroku">bclswl0827/v2ray-heroku</a></p>
-</li>
-<li><p>修改项目名称</p>
-</li>
-<li><p>点击<a href="https://id.heroku.com/">此处</a>注册/登录账号</p>
-</li>
-<li><p>访问 <code>https://dashboard.heroku.com/new?template=https://github.com/gayhub用户名/项目名</code></p>
-</li>
-</ol>
-<p>例如：<code>https://dashboard.heroku.com/new?template=https://github.com/mixue/bingcheng</code></p>
-<ol start="5">
-<li><p>输入在heroku部署的App Name、uuid，点击<code>Deploy APP</code></p>
-</li>
-<li><p>完成在Heroku服务端的部署</p>
-</li>
-</ol>
-<h3 id="caddy版-（封号概率稍高）"><a href="#caddy版-（封号概率稍高）" class="headerlink" title="caddy版 （封号概率稍高）"></a>caddy版 （封号概率稍高）</h3><ol>
-<li><p>fork这个项目 <a href="https://github.com/mixool/xrayku">mixool/xrayku</a></p>
 </li>
 <li><p>修改项目名称</p>
 </li>
@@ -87,19 +70,18 @@
 <li><p>参考以下信息配置</p>
 </li>
 </ol>
-<h3 id="无caddy版"><a href="#无caddy版" class="headerlink" title="无caddy版"></a>无caddy版</h3><p>地址：<code>cf优选ip</code><br>端口：<code>443</code><br>uuid：<code>你设置的uuid</code><br>额外id：<code>64</code><br>加密方式：<code>auto</code><br>别名：<code>自行命名</code><br>传输协议：<code>ws</code><br>底层传输安全：<code>tls</code><br>伪装类型：<code>none</code><br>伪装域名：<code>你的workers域名</code><br>SNI：<code>你的workers域名</code><br>路径：<code>/</code></p>
-<h3 id="caddy版"><a href="#caddy版" class="headerlink" title="caddy版"></a>caddy版</h3><p>地址：<code>cf优选ip</code><br>端口：<code>443</code><br>uuid：<code>你设置的uuid</code><br>额外id：<code>0</code><br>加密方式：<code>auto</code><br>别名：<code>自行命名</code><br>传输协议：<code>ws</code><br>底层传输安全：<code>tls</code><br>伪装类型：<code>none</code><br>伪装域名：<code>你的workers域名</code><br>SNI：<code>你的workers域名</code><br>路径：<code>/你设置的uuid-vmess</code></p>
+<p>地址：<code>cf优选ip</code><br>端口：<code>443</code><br>uuid：<code>你设置的uuid</code><br>额外id：<code>64</code><br>加密方式：<code>auto</code><br>别名：<code>自行命名</code><br>传输协议：<code>ws</code><br>底层传输安全：<code>tls</code><br>伪装类型：<code>none</code><br>伪装域名：<code>你的workers域名</code><br>SNI：<code>你的workers域名</code><br>路径：<code>/</code></p>
 <ol start="4">
 <li>测试连接，大功告成</li>
 </ol>
 ]]></content>
       <tags>
         <tag>v2ray</tag>
-        <tag>翻墙</tag>
+        <tag>v2</tag>
         <tag>科学上网</tag>
+        <tag>翻墙</tag>
         <tag>Heroku</tag>
         <tag>节点</tag>
-        <tag>v2</tag>
       </tags>
   </entry>
   <entry>
@@ -194,11 +176,11 @@
 <hr>
 ]]></content>
       <tags>
+        <tag>科学上网</tag>
+        <tag>教程</tag>
         <tag>clash</tag>
         <tag>cfw</tag>
         <tag>clash for windows</tag>
-        <tag>科学上网</tag>
-        <tag>教程</tag>
       </tags>
   </entry>
   <entry>
@@ -255,11 +237,11 @@
 <hr>
 ]]></content>
       <tags>
+        <tag>科学上网</tag>
+        <tag>教程</tag>
         <tag>clash</tag>
         <tag>cdn</tag>
         <tag>Clash.NET</tag>
-        <tag>科学上网</tag>
-        <tag>教程</tag>
       </tags>
   </entry>
   <entry>
@@ -343,8 +325,8 @@
 ]]></content>
       <tags>
         <tag>v2ray</tag>
-        <tag>科学上网</tag>
         <tag>v2</tag>
+        <tag>科学上网</tag>
         <tag>教程</tag>
       </tags>
   </entry>
@@ -405,6 +387,57 @@
         <tag>cloudstudio</tag>
         <tag>博客</tag>
         <tag>webide</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>岛主 Azure F4S 中转使用教程</title>
+    <url>/2021/08/19/%E5%B2%9B%E4%B8%BB-Azure-F4S-%E4%B8%AD%E8%BD%AC%E4%BD%BF%E7%94%A8%E6%95%99%E7%A8%8B/</url>
+    <content><![CDATA[<p>上一次我在博客发出来的文章，有人在评论区建议我写一篇教程，那么我就来以我的Heroku US节点演示一下如何使用岛主的中转</p>
+<p>本文演示的是vmess ws+tls节点的食用</p>
+<h2 id="准备材料"><a href="#准备材料" class="headerlink" title="准备材料"></a>准备材料</h2><ul>
+<li>节点一个</li>
+<li>手</li>
+</ul>
+<h2 id="开始使用"><a href="#开始使用" class="headerlink" title="开始使用"></a>开始使用</h2><ol>
+<li>复制你的节点的伪装域名和端口</li>
+</ol>
+<p><img src="https://upload.cc/i1/2021/08/19/rVHgSy.png"></p>
+<ol start="2">
+<li>点击<a href="https://panel-transit-azure-f4s-hk.speedtestcustom.tk/">此处</a>打开中转面板</li>
+<li>点击<code>添加中转</code></li>
+</ol>
+<p><img src="https://upload.cc/i1/2021/08/19/J1D2bu.png"></p>
+<ol start="4">
+<li>按照“伪装域名:端口号”的格式填写</li>
+</ol>
+<p><img src="https://upload.cc/i1/2021/08/19/b7GldZ.png"></p>
+<ol start="5">
+<li>完成Captcha验证</li>
+</ol>
+<p><img src="https://upload.cc/i1/2021/08/19/iK3Hn8.png"></p>
+<ol start="6">
+<li>复制中转地址和端口</li>
+</ol>
+<p><img src="https://upload.cc/i1/2021/08/19/2BvNSX.png"></p>
+<ol start="7">
+<li>把服务器地址和端口改成中转的地址和端口</li>
+</ol>
+<p><img src="https://upload.cc/i1/2021/08/19/iJ38ZH.png"></p>
+<ol start="8">
+<li>测试连接</li>
+</ol>
+<p><img src="https://upload.cc/i1/2021/08/19/foFU3M.png"></p>
+]]></content>
+      <tags>
+        <tag>v2ray</tag>
+        <tag>科学上网</tag>
+        <tag>中转</tag>
+        <tag>clash</tag>
+        <tag>cdn</tag>
+        <tag>cfw</tag>
+        <tag>Clash.NET</tag>
+        <tag>clash for windows</tag>
+        <tag>翻墙</tag>
       </tags>
   </entry>
   <entry>
@@ -484,11 +517,11 @@
 ]]></content>
       <tags>
         <tag>v2ray</tag>
+        <tag>v2</tag>
+        <tag>科学上网</tag>
         <tag>clash</tag>
         <tag>cfw</tag>
         <tag>clash for windows</tag>
-        <tag>科学上网</tag>
-        <tag>v2</tag>
         <tag>机场</tag>
         <tag>订阅</tag>
         <tag>问题</tag>
